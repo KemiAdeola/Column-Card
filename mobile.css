@@ -1,0 +1,24 @@
+#column-card .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 240px;
+    padding-top: 0;
+    height: 100px;
+    
+}
+
+.sedans {
+    border-radius: 10px 10px 0 0;
+}
+
+.luxury {
+    border-radius: 0 0 10px 10px;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+.btn{
+    margin-bottom: 2rem;
+} 
